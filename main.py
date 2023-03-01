@@ -16,7 +16,7 @@ from common.lib.backend import IPCS_SERVER_ID, is_bot
 
 
 set_stream_handler(logger)
-set_output_handler(logger, "ipcs", "log/!id!.log")
+set_output_handler(logger, default="log/ipcs.log")
 
 with open("secret.key", "rb") as f:
     chiper = ChiperManager(f.read())
