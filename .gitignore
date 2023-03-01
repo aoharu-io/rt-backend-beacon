@@ -1,0 +1,19 @@
+# General
+__pycache__
+
+# OS
+.DS_Store
+
+# Project
+*.key
+log
+
+# User
+.*
+!.gitignore
+!.github
+!.devcontainer
+venv
+
+*.code-*
+*.sublime-*
