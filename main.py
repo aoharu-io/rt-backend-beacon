@@ -11,8 +11,8 @@ from websockets.datastructures import Headers
 from core.rextlib.common.chiper import ChiperManager
 from core.rextlib.common.log import set_stream_handler
 
-from rtlib.common.log import set_output_handler
-from rtlib.common.backend import IPCS_SERVER_ID, is_bot
+from common.lib.log import set_output_handler
+from common.lib.backend import IPCS_SERVER_ID, is_bot
 
 
 set_stream_handler(logger)
