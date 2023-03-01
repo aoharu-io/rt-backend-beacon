@@ -1,4 +1,4 @@
-# rt-beacon
+# rt-backend-beacon
 RTのバックエンドのBotサーバーとAPIサーバーが通信をするために使うipcsサーバーです。
 
 ## Set up
