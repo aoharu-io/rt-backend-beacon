@@ -9,9 +9,6 @@ RTのバックエンドのBotサーバーとAPIサーバーが通信をするた
 4. リポジトリrt-backend-botとrt-backend-apiで使っている`secret.key`を、このリポジトリのルートディレクトリに配置。
 
 ## Usage
-### Normal
 ```shell
 $ python3 main.py 127.0.0.1 8765
 ```
-### Docker
-Coming soon...
