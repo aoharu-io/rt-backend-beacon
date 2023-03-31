@@ -1,6 +1,6 @@
 [submodule "core/rextlib"]
 	path = core/rextlib
 	url = https://github.com/rext-dev/lib.py
-[submodule "common"]
-	path = common
+[submodule "core/common"]
+	path = core/common
 	url = https://github.com/rext-dev/rt-common
