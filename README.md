@@ -10,5 +10,5 @@ RTのバックエンドのBotサーバーとAPIサーバーが通信をするた
 
 ## Usage
 ```shell
-$ python3 main.py 127.0.0.1 8765
+$ python3 main.py -H 127.0.0.1 -p 8765
 ```
