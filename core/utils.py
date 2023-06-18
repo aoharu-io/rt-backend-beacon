@@ -1,5 +1,3 @@
-"RT - Utils"
-
 __all__ = ("frozenlist_default_of_dumps",)
 
 from typing import Any

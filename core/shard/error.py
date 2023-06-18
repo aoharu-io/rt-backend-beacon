@@ -1,5 +1,3 @@
-"RT Shard - Error"
-
 __all__ = ("LibShardError", "UnavaliableError", "BadRequestError", "UNAVALIABLE")
 
 

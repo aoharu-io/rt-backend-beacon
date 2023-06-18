@@ -1,5 +1,3 @@
-"RT - Log"
-
 __all__ = ("logger", "ipcs_logger")
 
 from logging import getLogger, Logger

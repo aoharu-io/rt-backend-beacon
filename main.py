@@ -1,5 +1,3 @@
-"RT - Beacon (Ipcs Server)"
-
 from typing import Any
 
 from argparse import ArgumentParser

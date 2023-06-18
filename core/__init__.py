@@ -1,5 +1,3 @@
-"RT - Core"
-
 from __future__ import annotations
 
 __all__ = ("Core", "logger")
