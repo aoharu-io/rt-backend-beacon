@@ -1,14 +1,12 @@
-# rt-backend-beacon
 RTのバックエンドのBotサーバーとAPIサーバーが通信をするために使うipcsサーバーです。
 
-## Set up
-1. バージョンが3.11.xのPythonを用意。
-2. サブモジュールを初期化。（例：`git submodule update --init`）
-3. サブモジュールのrextlibが依存しているライブラリのインストール。（そのライブラリは、`core/rextlib/requirements.txt`にまとめられています。）
-  例：`pip3 install -U -r core/rextlib/requirements.txt`
-4. リポジトリrt-backend-botとrt-backend-apiで使っている`secret.key`を、このリポジトリのルートディレクトリに配置。
+## 環境構築
+1. サブモジュールの用意。
+2. バージョンが3.11.xのPythonを用意。
+3. 開発ツールryeで依存関係の用意。（`rye sync`）
+4. リポジトリ`rt-{bot,api}`で使っている`secret.key`を、このリポジトリのルートディレクトリに配置。
 
 ## Usage
 ```shell
-$ python3 main.py -H 127.0.0.1 -p 8765
+$ rye run python3 .
 ```
