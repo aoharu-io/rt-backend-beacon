@@ -1,1 +1,1 @@
-一般的な貢献の手引きは[こちら](https://rt-docs.pages.dev/docs/developer/contributing)にまとめられています。
+一般的な貢献の手引きは[こちら](https://rt-docs.pages.dev/ja/developer/contributing)にまとめられています。
