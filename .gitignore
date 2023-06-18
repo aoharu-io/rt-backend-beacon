@@ -1,6 +1,5 @@
 # General
 __pycache__
-*.lock
 
 # OS
 .DS_Store
