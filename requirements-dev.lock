@@ -15,8 +15,8 @@ backoff==2.2.1
 cffi==1.15.1
 cryptography==41.0.1
 frozenlist==1.4.0
-ipcs==0.1.5.post1
-orjson==3.9.1
+ipcs==0.2.0
+orjson==3.9.2
 psutil==5.9.5
 pycparser==2.21
 pymysql==1.0.3

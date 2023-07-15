@@ -3,7 +3,7 @@ name = "rt-beacon"
 version = "0.0.0"
 requires-python = ">= 3.11"
 dependencies = [
-    "ipcs~=0.1.5.post1",
+    "ipcs~=0.2.0",
     "backoff~=2.2.1",
     "frozenlist~=1.4.0",
 ]
