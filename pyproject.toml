@@ -4,7 +4,8 @@ version = "0.0.0"
 classifiers = [
     "Private :: Do Not Upload",
     "Topic :: System",
-    "Framework :: AsyncIO",
+    "Typing :: Typed",
+    "Framework :: AsyncIO"
 ]
 requires-python = ">= 3.11"
 dependencies = [
