@@ -1,6 +1,11 @@
 [project]
 name = "rt-beacon"
 version = "0.0.0"
+classifiers = [
+    "Private :: Do Not Upload",
+    "Topic :: System",
+    "Framework :: AsyncIO",
+]
 requires-python = ">= 3.11"
 dependencies = [
     "ipcs~=0.2.0",
