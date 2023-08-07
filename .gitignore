@@ -13,6 +13,7 @@ __pycache__
 !.gitignore
 !.github
 !.devcontainer
+!.vscode
 venv
 
 *.code-*
